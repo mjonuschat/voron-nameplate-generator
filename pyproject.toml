@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "serial-plate"
+version = "0.1.0"
+description = "VORON Serial Plate Generator"
+authors = ["Morton Jonuschat <mjonuschat@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.0"
+cadquery = "^2.3"
+click = "^8.1.7"
+python-dotenv = "^1.0.0"
+pydantic = "^2.4.2"
+gunicorn = "^21.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ufmt = "^2.2.0"
+black = "^23.9.1"
+pyre-check = "^0.9.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+[_]
+id = "de.mojocode.vng"
+name = "Voron Nameplate Generator"
+
+[io.buildpacks]
+    exclude = [
+        "/.venv",
+        "**/*/__pycache__",
+        "/node_modules",
+    ]
